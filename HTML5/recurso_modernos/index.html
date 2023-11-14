@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recursos Modernos no HTML5</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos Semânticos</title>
+  </head>
+  <body>
+    <header> <!--Define o cabeçalho da página-->
+      <h1>Tags Semânticas</h1>
+
+      <nav> <!--Define uma seção de navegação-->
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main> <!--Define o conteúdo principal da página-->
+      <section id="inicio"> <!--Define uma seção temática da página-->
+        <h2>Início</h2>
+        <p>Bem-vindo à nossa página de exemplo!</p>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre</h2>
+        <article> <!-- Define um conteúdo independente e completo dentro de uma página-->
+          <h3>História</h3>
+          <p>Aqui contamos a história da nossa empresa.</p>
+        </article>
+        <article>
+          <h3>Missão</h3>
+          <p>
+            Nossa missão é fornecer produtos de qualidade para nossos clientes.
+          </p>
+        </article>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+            <address> <!--Define informações de contato-->
+                <p>Entre em contato conosco:</p>
+                <p><a href="mailto:">Email: contato@exemplo.com</a></p>
+                <p><a href="tel:+55 (11) 1234-5678">Telefone: (11) 1234-5678</a></p>
+                <p><a href="http://www.semantica.com/contact">www.semantica.com</a></p>
+                <p>Endereço: Rua das Flores, 123 Vila Floresta Ipiranga - São Paulo.</p>
+            </address>
+      </section>
+    </main>
+
+    <footer> <!--Define o rodapé da página-->
+      <p>© 2023 Valtino Nazareth <span style='font: size 1rem'>&#128521;</span> - Tags Semânticas</p>
+    </footer>
+  </body>
 </html>
