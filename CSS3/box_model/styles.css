@@ -1,0 +1,28 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+:root {
+    font-size: 62.5;
+}
+
+.box {
+    background-color: #f64348;
+    border: 0.2rem solid #1c1a1d;
+}
+
+.box {
+    /* Margin */
+    margin-top: 3.0rem;
+    margin-right: 4.0rem;
+    margin-bottom: 3.0rem;
+    margin-left: 4.0rem;
+
+    /*Preenchimento*/
+    padding-top: 1.0rem;
+    padding-right: 2.0rem;
+    padding-bottom: 1.0rem;
+    padding-left: 2.0rem;
+}

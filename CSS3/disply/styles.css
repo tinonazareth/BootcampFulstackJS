@@ -1,0 +1,40 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+:root {
+    font-size: 62.5;
+}
+
+/* inline: não quebra de linha, largura mínima, apenas aceita margem e preenchimento horizontal */
+.inline {
+    display: inline;
+   
+    margin-left: 2.0rem;
+    margin-right: 2.0rem;
+   
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+}
+
+/* block: quebra de linha, largura máxima, aceita margem e preenchimento vertical e horizontal */
+.block {
+    display: block;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+/* inline-block: não quebra linha, aceita margem e preenchimento vertical */
+.inline-block {
+    display: inline-block;
+    margin-top: 0.1rem;
+    padding-top: 0.1rem;
+}
