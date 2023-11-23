@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root {
+    font-size: 62.5;
+} */
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 1.0rem;
+}
+
+section {
+    background-color: #ddd;
+    height: 10.0rem;
+}
+
+.box {
+    border: 0.1rem solid #232323;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-top: 2.0rem;
+    width: 7.5rem;
+}
+
+.px {
+    height: 1px;
+}
+
+
+.rem {
+    height: 3rem;
+}
+
+.em {
+    font-size: 2.0rem;
+    padding: 1em;
+}
+
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewport height */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width */
+.vw {
+    width: 50vw;
+}
