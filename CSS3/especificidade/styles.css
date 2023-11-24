@@ -1,0 +1,7 @@
+body > h1 { /* Especificidade maior pela combinação de seletores ( soma das especicficidade )*/
+    color: #0f0;
+}
+
+h1 {
+    color: #f00;
+}

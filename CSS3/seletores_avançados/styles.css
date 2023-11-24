@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5;
+}
+
+/* Permite encontrar um filho especifico*/
+li:nth-child(2) { 
+    color: #f00;
+}
+
+/* Para expressar par e impar utilize em inglês ( odd - even )*/
+li:nth-child(3n) {
+    color: #00f;
+}
+
+/* Seletores de estado muda o comportamento*/
+li:hover {
+    background-color: #999;
+}
+
+/* Pseudo-elementos insere conteúdo antes e ou depois do elemento*/
+li::before {
+    content: " (antes) ";
+}
+
+li::after {
+    content: " (depois) ";
+}
+
+/* Seleciona apenas o primeiro elemento */
+li:first-child {
+    color: rgb(255, 174, 0);
+}
+
+/* Seleciona apenas o último elemento */
+li:last-child {
+    color: rgb(255, 0, 179);
+}
+
+/* Inverte o seletor (exemplo abaixo pega todos os li menos o primeiro */
+li:not(:first-child) {
+    color: rgb(0, 255, 255);
+}
