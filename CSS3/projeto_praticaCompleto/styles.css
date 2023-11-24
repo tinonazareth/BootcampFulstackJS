@@ -44,11 +44,12 @@ a {
 .hero__title {
     font-size: 5rem;
     font-weight: 300;
+   
 }
 
 .hero__text {
     margin-top: 2rem;
-   /* espaçamento entre as letras */
+    /* espaçamento entre as letras */
     letter-spacing: 0.5rem; 
     text-transform: uppercase;
 }
