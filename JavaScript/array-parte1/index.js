@@ -27,14 +27,14 @@ const inclui = arr.includes("Gandalf")
 console.log(inclui);
 
 // indexOf: Encontra o índice que possui o elemento indicado, ou -1 caso ele não exista no array.
-const indice = arr.indexOf("Gandolf")
+const indice = arr.indexOf("Gandalf")
 console.log(indice);
 
 // CORTANDO E CONCATENANDO
 // slice: Copia uma parte do array e devolve a parte copiada sem alterar o array otiginal.
-const hobbits = arr.splice(0, 4)
+const hobbits = arr.slice(0, 4)
 // Tambem pode ser usado com números negativos referenciar o final do array.
-const outros = arr.slice(-4)
+const outros = arr.slice(-4) // do final para o inicio.
 console.log(arr);
 console.log(hobbits);
 console.log(outros);
@@ -47,7 +47,7 @@ console.log(outros);
 
 // SUBSTITUINDO ELEMENTOS
 // splice: Permite remover elementos em qualquer posição do array e substituir por novos.
-const elementoRemovidos = sociedade.splice(indice, 1, "Gandalf, o cinzento")
+const elementoRemovidos = sociedade.splice(indice, 1, "Gandalf o cinzento")
 console.log(elementoRemovidos);
 console.log(sociedade);
 
